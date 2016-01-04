@@ -1,0 +1,16 @@
+.row {
+	background-color: #ffffff;
+	border-top: #f3f3f3 1px solid;
+	border-bottom: #f3f3f3 1px solid;
+}
+
+.preheader {
+	background-color: transparent;
+	display: none !important;
+}
+
+.preheader .cell {
+	padding:10px 20px;
+	font-size: 12px;
+	line-height: 16px;
+}

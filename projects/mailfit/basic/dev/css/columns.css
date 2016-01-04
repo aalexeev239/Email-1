@@ -1,0 +1,24 @@
+.one-column, .two-columns, .three-columns, .four-columns {
+    text-align: center;
+    font-size: 0;
+}
+.column {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    text-align: left;
+}
+.one-column .column {
+    max-width: 600px;
+}
+.two-columns .column {
+    max-width: 300px;
+}
+.three-columns .column {
+    width:49%;
+    max-width: 200px;
+}
+.four-columns .column {
+    max-width: 300px;
+}

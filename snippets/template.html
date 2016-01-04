@@ -1,0 +1,53 @@
+@@include("start.html")
+<row class="header">
+	<col>
+		<row>
+			<cell>
+				<a href="{{Image.Url}}"><img src="{{Image.Src}}"></a>
+			</cell>
+			<cell>
+				<phone>{{Phone.Number}}</phone>
+			</cell>
+		</row>
+	</col>
+</row>
+<row class="content">
+	<col>
+		<row>
+			<cell>
+				<h1>Heading</h1>
+				<p>Paragraph</p>
+				<button class="{{Button.Class}}" href="{{Button.Url}}">{{Button.Text}}</button>
+				<h2>Heading</h1>
+			</cell>
+		</row>
+	</col>
+</row>
+<row class="goods" count="6">
+	<item>
+		<row>
+			<cell><a href="{{Itm.Url}}"><img src="{{Item.PictureUrl}}"></a></cell>
+		</row>
+		<row>
+			<cell><a href="{{Itm.Url}}">{{Item.Name}}</a></cell>
+		</row>
+		<row>
+			<cell>{{Item.Price}}</cell>
+		</row>
+		<row>
+			<cell><button class="{{Button.Class}}" href="{{Item.Url}}">{{Button.Text}}</button></cell>
+		</row>
+	</item>
+</row>
+<row class="footer">
+	<col>
+		<row class="social">
+			<col>
+				<cell>
+					<p>Credits. Unsubscribe.</p>
+				</cell>
+			</col>
+		</row>
+	</col>
+</row>
+@@include("end.html")

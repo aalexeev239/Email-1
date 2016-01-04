@@ -1,0 +1,9 @@
+{
+	company : {
+		name : "Email"
+	},
+	website : {
+		name : "Mailfit.com",
+		url : "http://mailfit.com"
+	}
+}

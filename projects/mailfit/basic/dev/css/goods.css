@@ -1,0 +1,61 @@
+.goods {
+    text-align: left;
+}
+
+.goods .itemPicture {
+    width: 100%;
+    height: auto;
+}
+
+.goods .itemPrice-cell {
+    height: 45px;
+    padding: 0;
+}
+
+.goods .itemPrice {
+    font-family: 'Helvetica', 'Arial';
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: left;
+}
+
+.goods .oldPrice {
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.goods .newPrice {
+    white-space: nowrap;
+    color: #fd001e;
+}
+
+.goods .itemCurrency {
+    font-family: 'Helvetica', 'Arial';
+    font-size: 13px;
+}
+
+.goods .itemDiscount {
+    padding-top: 10px;
+}
+
+.goods .itemName-cell {
+    height: 55px;
+    padding: 0 0 10px 0;
+}
+
+.goods .itemName {
+    font-family: 'Helvetica', 'Arial';
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.goods .button {
+    max-width: 110px;
+}
+
+.goods .button-link {
+    border: gold 10px solid;
+}
